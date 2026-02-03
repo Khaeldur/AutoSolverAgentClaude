@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# macOS
+.DS_Store
+
+# Claude
+.claude/
+
+# Offline bundles (too large for git)
+offline/
+
+# Archive (old attempts)
+archive/
+
+# Debug output (keep only final_screenshot.png and run_stats.json)
+output/*.png
+output/*.json
+output/*.log
+output/*.js
+output/screens/
+!output/final_screenshot.png
+!output/run_stats.json

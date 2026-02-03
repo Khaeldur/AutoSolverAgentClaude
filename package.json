@@ -1,0 +1,15 @@
+{
+  "name": "autosolver-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One-click solver for the Browser Navigation Challenge - completes 30 steps in ~30 seconds",
+  "type": "module",
+  "scripts": {
+    "start": "node solver.js",
+    "solve": "node solver.js",
+    "test": "node solver.js"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
