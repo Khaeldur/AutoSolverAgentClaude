@@ -87,7 +87,7 @@
     <h1>Browser Navigation Challenge<br>Solution Methodology</h1>
 
     <div class="success">
-        <strong>Result:</strong> <span class="metric">30/30 steps completed in ~28 seconds</span><br>
+        <strong>Result:</strong> <span class="metric">30/30 steps completed in ~30 seconds</span><br>
         <strong>Token Usage:</strong> 0 (pure algorithmic solution, no LLM API calls)<br>
         <strong>Token Cost:</strong> $0.00
     </div>
@@ -202,7 +202,7 @@ window.dispatchEvent(new PopStateEvent('popstate'));</code></pre>
         <tr>
             <td>Browser Automation</td>
             <td>Playwright</td>
-            <td>Headless Chromium control</td>
+            <td>Visible Chromium control (watch live!)</td>
         </tr>
         <tr>
             <td>Launcher</td>
@@ -213,7 +213,7 @@ window.dispatchEvent(new PopStateEvent('popstate'));</code></pre>
 
     <h3>4.2 Algorithm Flow</h3>
     <ol>
-        <li><strong>Initialize:</strong> Launch headless Chromium browser</li>
+        <li><strong>Initialize:</strong> Launch visible Chromium browser (watch the automation live!)</li>
         <li><strong>Navigate:</strong> Go to challenge URL and click START</li>
         <li><strong>Extract Codes:</strong> Read and decrypt session codes from sessionStorage</li>
         <li><strong>For each step (1-29):</strong>
@@ -252,7 +252,7 @@ window.dispatchEvent(new PopStateEvent('popstate'));</code></pre>
         </tr>
         <tr>
             <td>Total Time</td>
-            <td class="metric">~28 seconds</td>
+            <td class="metric">~30 seconds</td>
         </tr>
         <tr>
             <td>Token Usage</td>

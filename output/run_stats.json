@@ -1,189 +1,189 @@
 {
-  "startTime": "2026-02-03T11:52:01.218Z",
-  "endTime": "2026-02-03T11:52:29.555Z",
-  "totalDurationSeconds": 28.34,
+  "startTime": "2026-02-03T17:13:12.151Z",
+  "endTime": "2026-02-03T17:13:42.281Z",
+  "totalDurationSeconds": 30.13,
   "stepsCompleted": 30,
   "totalSteps": 30,
   "success": true,
   "stepDetails": [
     {
       "step": 1,
-      "code": "V7YW9R",
-      "durationMs": 312,
+      "code": "F8L3MP",
+      "durationMs": 310,
       "method": "code_submission"
     },
     {
       "step": 2,
-      "code": "8SHCPQ",
-      "durationMs": 314,
-      "method": "code_submission"
-    },
-    {
-      "step": 3,
-      "code": "ZL9XPR",
-      "durationMs": 310,
-      "method": "code_submission"
-    },
-    {
-      "step": 4,
-      "code": "XPATEE",
-      "durationMs": 310,
-      "method": "code_submission"
-    },
-    {
-      "step": 5,
-      "code": "5QZCZF",
-      "durationMs": 310,
-      "method": "code_submission"
-    },
-    {
-      "step": 6,
-      "code": "2D6BB9",
-      "durationMs": 308,
-      "method": "code_submission"
-    },
-    {
-      "step": 7,
-      "code": "YT32AA",
-      "durationMs": 309,
-      "method": "code_submission"
-    },
-    {
-      "step": 8,
-      "code": "AD4ELY",
-      "durationMs": 309,
-      "method": "code_submission"
-    },
-    {
-      "step": 9,
-      "code": "DPN4W8",
-      "durationMs": 308,
-      "method": "code_submission"
-    },
-    {
-      "step": 10,
-      "code": "7QEE2S",
-      "durationMs": 313,
-      "method": "code_submission"
-    },
-    {
-      "step": 11,
-      "code": "3RCF2S",
-      "durationMs": 311,
-      "method": "code_submission"
-    },
-    {
-      "step": 12,
-      "code": "5CJ2H3",
-      "durationMs": 309,
-      "method": "code_submission"
-    },
-    {
-      "step": 13,
-      "code": "7VEPG9",
-      "durationMs": 309,
-      "method": "code_submission"
-    },
-    {
-      "step": 14,
-      "code": "QJ3RFE",
-      "durationMs": 313,
-      "method": "code_submission"
-    },
-    {
-      "step": 15,
-      "code": "LNEFHH",
+      "code": "4F3E5L",
       "durationMs": 312,
       "method": "code_submission"
     },
     {
-      "step": 16,
-      "code": "F2TWEN",
+      "step": 3,
+      "code": "8TZC5Y",
+      "durationMs": 315,
+      "method": "code_submission"
+    },
+    {
+      "step": 4,
+      "code": "ATBENT",
+      "durationMs": 309,
+      "method": "code_submission"
+    },
+    {
+      "step": 5,
+      "code": "USFK37",
+      "durationMs": 315,
+      "method": "code_submission"
+    },
+    {
+      "step": 6,
+      "code": "N7KPQC",
       "durationMs": 317,
       "method": "code_submission"
     },
     {
-      "step": 17,
-      "code": "8UQSQC",
-      "durationMs": 310,
+      "step": 7,
+      "code": "CMHPRL",
+      "durationMs": 315,
       "method": "code_submission"
     },
     {
-      "step": 18,
-      "code": "X9EWMJ",
+      "step": 8,
+      "code": "6V8J6V",
       "durationMs": 314,
       "method": "code_submission"
     },
     {
+      "step": 9,
+      "code": "5REA9A",
+      "durationMs": 314,
+      "method": "code_submission"
+    },
+    {
+      "step": 10,
+      "code": "9GBYRG",
+      "durationMs": 315,
+      "method": "code_submission"
+    },
+    {
+      "step": 11,
+      "code": "FDSK6M",
+      "durationMs": 314,
+      "method": "code_submission"
+    },
+    {
+      "step": 12,
+      "code": "5PHLHS",
+      "durationMs": 313,
+      "method": "code_submission"
+    },
+    {
+      "step": 13,
+      "code": "S4KJLB",
+      "durationMs": 314,
+      "method": "code_submission"
+    },
+    {
+      "step": 14,
+      "code": "YLMKZ3",
+      "durationMs": 311,
+      "method": "code_submission"
+    },
+    {
+      "step": 15,
+      "code": "R9JZK3",
+      "durationMs": 314,
+      "method": "code_submission"
+    },
+    {
+      "step": 16,
+      "code": "2LHMZR",
+      "durationMs": 312,
+      "method": "code_submission"
+    },
+    {
+      "step": 17,
+      "code": "7GF2PQ",
+      "durationMs": 316,
+      "method": "code_submission"
+    },
+    {
+      "step": 18,
+      "code": "MHBBQY",
+      "durationMs": 312,
+      "method": "code_submission"
+    },
+    {
       "step": 19,
-      "code": "YLZHVD",
-      "durationMs": 310,
+      "code": "9GETWH",
+      "durationMs": 313,
       "method": "code_submission"
     },
     {
       "step": 20,
-      "code": "5PLST5",
-      "durationMs": 310,
+      "code": "RRT6RB",
+      "durationMs": 313,
       "method": "code_submission"
     },
     {
       "step": 21,
-      "code": "J472GK",
-      "durationMs": 310,
+      "code": "BUKTDC",
+      "durationMs": 309,
       "method": "code_submission"
     },
     {
       "step": 22,
-      "code": "BPVK7E",
+      "code": "VUGBNM",
       "durationMs": 311,
       "method": "code_submission"
     },
     {
       "step": 23,
-      "code": "GG9UQE",
-      "durationMs": 313,
+      "code": "6SL3TB",
+      "durationMs": 309,
       "method": "code_submission"
     },
     {
       "step": 24,
-      "code": "2BP9WJ",
-      "durationMs": 308,
+      "code": "2HJWXL",
+      "durationMs": 315,
       "method": "code_submission"
     },
     {
       "step": 25,
-      "code": "V8VR3W",
-      "durationMs": 313,
+      "code": "UG7SH9",
+      "durationMs": 320,
       "method": "code_submission"
     },
     {
       "step": 26,
-      "code": "SC8DYL",
-      "durationMs": 310,
+      "code": "6XQD96",
+      "durationMs": 311,
       "method": "code_submission"
     },
     {
       "step": 27,
-      "code": "8WKRFU",
-      "durationMs": 314,
+      "code": "3BQ3PH",
+      "durationMs": 315,
       "method": "code_submission"
     },
     {
       "step": 28,
-      "code": "K49JGF",
-      "durationMs": 313,
+      "code": "LC3TSD",
+      "durationMs": 315,
       "method": "code_submission"
     },
     {
       "step": 29,
-      "code": "4PQJZL",
-      "durationMs": 310,
+      "code": "LQT8D8",
+      "durationMs": 312,
       "method": "code_submission"
     },
     {
       "step": 30,
       "code": "N/A (router bypass)",
-      "durationMs": 503,
+      "durationMs": 535,
       "method": "history.pushState"
     }
   ],

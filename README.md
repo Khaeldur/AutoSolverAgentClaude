@@ -25,6 +25,7 @@
 
 - Solves the [Browser Navigation Challenge](https://serene-frangipane-7fd25b.netlify.app/)
 - Completes all **30 steps** in **~30 seconds**
+- **Visible browser mode** - watch the automation live!
 - Handles all dark patterns, popups, and modals automatically
 - Extracts session codes via XOR decryption
 - Bypasses step 30 validation bug using React Router manipulation
@@ -50,7 +51,8 @@ The installer will use bundled files instead of downloading.
 ## Output
 
 After running, check:
-- `output/router_hack_final.png` - Victory screenshot
+- `output/final_screenshot.png` - Victory screenshot
+- `output/run_stats.json` - Detailed run statistics
 - Console output shows step-by-step progress
 
 ## Alternative: npm scripts
@@ -75,7 +77,7 @@ The solver:
 |------|---------|
 | `solve.sh` | One-click launcher (macOS/Linux) |
 | `solve.ps1` | One-click launcher (Windows) |
-| `run_router_hack.js` | Main solver (30/30 steps) |
+| `solver.js` | Main solver (30/30 steps) |
 | `package.json` | npm configuration |
 
 ## License

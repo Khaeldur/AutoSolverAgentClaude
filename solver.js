@@ -48,7 +48,11 @@ function decrypt(encoded) {
   // Ensure output directory exists
   try { mkdirSync('output', { recursive: true }); } catch {}
 
-  const browser = await chromium.launch({ headless: true, args: ['--disable-gpu', '--no-sandbox'] });
+  const browser = await chromium.launch({
+    headless: false,  // Set to false to watch the browser automation live!
+    args: ['--disable-gpu', '--no-sandbox'],
+    slowMo: 50  // Add slight delay between actions for visibility
+  });
   const page = await browser.newPage({ viewport: { width: 1400, height: 900 } });
   page.on('dialog', d => d.accept().catch(() => {}));
 
