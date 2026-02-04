@@ -1,0 +1,106 @@
+========================================
+APPENDIX — WHY THIS MATTERS FOR REAL COMPUTER-USE AGENTS
+========================================
+
+This solution is intentionally deterministic and non-LLM at runtime.
+That choice is not about gaming a benchmark — it reflects a broader
+design principle for real computer-use systems.
+
+
+1. Most real UIs are adversarial by default
+
+Modern web and desktop interfaces are filled with dark patterns:
+misleading buttons, overlays, modals, forced flows, and ambiguous
+affordances. Humans do not "reason" through these — they recognize
+structure and dismiss them reflexively.
+
+LLM-driven vision + reasoning loops tend to:
+
+  * Misinterpret intent under adversarial UI pressure
+  * Burn latency and tokens on trivial state changes
+  * Fail catastrophically on edge cases (popups, z-index traps, route guards)
+
+Structural handling (DOM, routing, event semantics) is more reliable
+and cheaper.
+
+
+2. Determinism beats reasoning for baseline competence
+
+For computer-use agents to outperform humans, they must first match
+human reflexes, not human explanations.
+
+This solver demonstrates:
+
+  * Fixed execution paths
+  * Zero variance between runs
+  * Predictable latency and cost
+
+This is a prerequisite layer. Higher-level reasoning is additive,
+not foundational.
+
+
+3. Token cost is not the real bottleneck — latency and failure modes are
+
+In production systems, the real constraints are:
+
+  * End-to-end latency
+  * Retry storms
+  * UI drift
+  * Cost predictability at scale
+
+A deterministic browser agent can run:
+
+  * Faster than humans
+  * Cheaper than LLM loops
+  * With bounded failure surfaces
+
+This matters more than raw "intelligence" for many workflows
+(ops, QA, internal tools, automation).
+
+
+4. Hybrid agents are the practical endgame
+
+The intent is not "LLMs vs algorithms", but layering:
+
+  Layer 1: Deterministic UI control
+    * Navigation
+    * Modal dismissal
+    * State transitions
+    * Known patterns
+
+  Layer 2: Heuristic + structural inference
+    * DOM analysis
+    * Accessibility trees
+    * Event graphs
+
+  Layer 3: LLM reasoning (selectively)
+    * Novel flows
+    * Ambiguous goals
+    * Unseen interfaces
+
+This challenge sits squarely in Layer 1 — and shows how much surface
+area can be covered without invoking Layer 3 at all.
+
+
+5. Reproducibility is a feature, not a nice-to-have
+
+For real teams building computer-use agents, reproducibility enables:
+
+  * Debugging
+  * Regression testing
+  * Security review
+  * Cost forecasting
+
+An agent that "usually works" is not acceptable infrastructure.
+
+
+Summary
+
+This solution demonstrates that a large class of computer-use problems
+can be solved faster, cheaper, and more reliably by treating UI
+interaction as a systems problem — not a reasoning problem.
+
+That foundation is what allows higher-level intelligence to scale
+safely on top.
+
+========================================
